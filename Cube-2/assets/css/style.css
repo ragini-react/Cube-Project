@@ -21,6 +21,11 @@ body {
   animation: spin 10s infinite linear;
   width: 200px;
   height: 200px;
+  cursor: pointer;
+}
+
+.cube-container:hover {
+  animation-play-state: paused;
 }
 
 .cube-container .front-side {
@@ -33,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 10px 15px rgb(216, 128, 135);
 }
 
 .cube-container .back-side {
@@ -45,6 +51,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 10px 15px rgb(216, 128, 135);
 }
 
 .cube-container .right-side {
@@ -57,6 +64,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 10px 15px rgb(216, 128, 135);
 }
 
 .cube-container .left-side {
@@ -69,6 +77,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 10px 15px rgb(216, 128, 135);
 }
 
 .cube-container .top-side {
@@ -81,6 +90,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 10px 15px rgb(216, 128, 135);
 }
 
 .cube-container .bottom-side {
@@ -93,6 +103,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 4px 4px 10px 15px rgb(216, 128, 135);
 }
 
 @keyframes spin {

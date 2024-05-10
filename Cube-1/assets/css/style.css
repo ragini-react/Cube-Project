@@ -8,21 +8,31 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 150px;
+  background-color: rgb(27, 18, 18);
 }
 
 .cube-img div img {
   width: 300px;
+  max-width: 70vw;
   height: 300px;
+  aspect-ratio: 1/1;
   object-fit: cover;
-  border: 5px solid black;
+  object-position: center;
+  box-shadow: 4px 4px 10px 15px rgb(131, 131, 204);
 }
 
 .cube-img {
   position: relative;
   width: 300px;
+  max-width: 70vw;
   height: 300px;
   transform-style: preserve-3d;
   animation: spin 20s infinite linear;
+  cursor: pointer;
+}
+
+.cube-img:hover {
+  animation-play-state: paused;
 }
 
 .front-img {
